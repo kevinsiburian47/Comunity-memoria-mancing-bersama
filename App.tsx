@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import { Plus, X, ArrowRight } from 'lucide-react';
-import MemoryCard from './components/MemoryCard';
-import MemoryForm from './components/MemoryForm';
-import { Memory } from './types';
+import MemoryCard from './components/MemoryCard.tsx';
+import MemoryForm from './components/MemoryForm.tsx';
+import { Memory } from './types.ts';
 
 const INITIAL_MEMORIES: Memory[] = [
   {
